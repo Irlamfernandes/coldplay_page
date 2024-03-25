@@ -1,0 +1,82 @@
+body{background-color: black;
+    color: springgreen;}
+
+@keyframes mudar {
+    0% {color: red;}
+    25% {color: blue;}
+    50% {color: yellow}
+    75% {color: deeppink}
+    100%{color:darkorange}}
+
+.coldplay{font-size: 150px;
+    font-style: italic;
+    text-align: center;
+    animation-name: mudar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 10s;}
+
+#biografia, .biografia, #membros, #discografia { display: flex;
+    justify-content: center;
+    padding: 50px;}
+
+.chris_martin img, .guy_berryman img, .phil_harvey img, .jonny_buckland img, .will_champion img { border: solid;
+    border-radius: 50px;}
+
+.chris_martin p, .guy_berryman p, .phil_harvey p, .jonny_buckland p, .will_champion p {display: flex;
+    justify-content: center;
+    padding: 50px;}
+
+a{color: springgreen;}
+
+nav{font-size: xx-large;
+    text-align: center;
+    list-style: none;
+    border: solid;}
+
+h1{font-size: xx-large;}
+h2{font-size: x-large;}
+p{font-size: large;
+    font-family: 'Courier New', Courier, monospace;}
+
+.chris_martin img, .guy_berryman img, .phil_harvey img, .jonny_buckland img, .will_champion img {float: left;}
+
+.guy, .phil, .jonny, .will, #discografia {clear: left;}
+
+.albuns_linha1, .albuns_linha2, .albuns_linha3 { display: flex;
+    justify-content: space-between;}
+
+.parachutes, .a_rush_of_blood_to_the_head, .xey, .viva_la_vida, .mylo_xyloto, .ghost_stories, .a_head_full_of_dreams, .everyday_life, .music_of_the_spheres {width: 30%;
+    padding: 1% 10% 5% 10%;}
+
+.albuns_linha1 img, .albuns_linha2 img, .albuns_linha3 img{ border-radius: 100%;
+    border: solid;}
+
+footer{color: white;
+    text-align: center;
+    padding: 5%;}
+
+footer a{border: solid;
+    border-color: seagreen;
+    color: white;
+    border-radius: 20%;
+    font-size: large;}
+
+form{padding: 1%;}
+
+#compra{text-align: center;
+    padding: 1%;}
+#compra a{font-size: large;}
+
+input{width: 350px;}
+
+details>summary{cursor: pointer;}
+summary{list-style-type: none;}
+
+#galeria img {display: inline-block;
+margin: 1px;
+padding: 10px;
+border: solid;}
+
+video{ width: 100%;
+    height: 600px;}
