@@ -92,7 +92,7 @@ video{ width: 100%;
 
     .chris_martin img, .guy_berryman img, .phil_harvey img, .jonny_buckland img, .will_champion img{width: 100%;}
     
-    .albuns_linha1, .albuns_linha2, .albuns_linha3{display: grid;
+    .discografia{display: grid;
         grid-template-columns: 100%;}
 
     .discografia{display: grid;
