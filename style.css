@@ -92,10 +92,8 @@ video{ width: 100%;
     .albuns_linha1, .albuns_linha2, .albuns_linha3{display: grid;
         grid-template-columns: 100%;}
 
-    .discografia{display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;}
+    .discografia{display: grid;
+        grid-template-columns: auto;}
 
     #galeria{ display: flex;
         flex-direction: column;
