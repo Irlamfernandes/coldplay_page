@@ -8,7 +8,7 @@ body{background-color: black;
     75% {color: deeppink}
     100%{color:darkorange}}
 
-.coldplay{font-size: 150px;
+.coldplay{font-size: 500%;
     font-style: italic;
     text-align: center;
     animation-name: mudar;
@@ -80,3 +80,20 @@ border: solid;}
 
 video{ width: 100%;
     height: 600px;}
+
+@media only screen and (max-width: 700px) {
+    .chris, .guy, .phil, .jonny, .will{text-align: center;}
+    .chris_martin, .guy_berryman, .phil_harvey, .jonny_buckland, .will_champion{display: grid;
+        grid-template-columns: repeat(1, auto);}
+
+    .chris_martin img, .guy_berryman img, .phil_harvey img, .jonny_buckland img, .will_champion img{width: 100%;}
+    
+    .albuns_linha1, .albuns_linha2, .albuns_linha3{display: grid;
+        grid-template-columns: 100%;}
+
+    .parachutes, .a_rush_of_blood_to_the_head, .xey, .viva_la_vida, .mylo_xyloto, .ghost_stories, .a_head_full_of_dreams, .everyday_life, .music_of_the_spheres{display: flex;
+        justify-content: space-around;}
+
+   nav{display: grid;
+    grid-template-columns: repeat(2, auto);}
+}
