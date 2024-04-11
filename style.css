@@ -92,7 +92,7 @@ video{ width: 100%;
         grid-template-columns: 100%;}
 
     .parachutes, .a_rush_of_blood_to_the_head, .xey, .viva_la_vida, .mylo_xyloto, .ghost_stories, .a_head_full_of_dreams, .everyday_life, .music_of_the_spheres{display: flex;
-        justify-content: space-around;}
+        justify-content: center;}
 
    nav{display: grid;
     grid-template-columns: repeat(2, auto);}
