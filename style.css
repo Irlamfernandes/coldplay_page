@@ -43,13 +43,14 @@ p{font-size: large;
 
 .guy, .phil, .jonny, .will, #discografia {clear: left;}
 
-.albuns_linha1, .albuns_linha2, .albuns_linha3 { display: flex;
-    justify-content: space-between;}
+.discografia{ display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;}
 
 .parachutes, .a_rush_of_blood_to_the_head, .xey, .viva_la_vida, .mylo_xyloto, .ghost_stories, .a_head_full_of_dreams, .everyday_life, .music_of_the_spheres {width: 30%;
     padding: 1% 10% 5% 10%;}
 
-.albuns_linha1 img, .albuns_linha2 img, .albuns_linha3 img{ border-radius: 100%;
+.discografia img{ border-radius: 100%;
     border: solid;}
 
 footer{color: white;
@@ -91,11 +92,25 @@ video{ width: 100%;
     .albuns_linha1, .albuns_linha2, .albuns_linha3{display: grid;
         grid-template-columns: 100%;}
 
-    .parachutes, .a_rush_of_blood_to_the_head, .xey, .viva_la_vida, .mylo_xyloto, .ghost_stories, .a_head_full_of_dreams, .everyday_life, .music_of_the_spheres{display: flex;
-        justify-content: center;}
+    .discografia{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;}
 
+    #galeria{ display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;}
+    
    nav{display: grid;
     grid-template-columns: repeat(2, auto);}
 
     .coldplay{font-size: 400%;}
+}
+
+@media only screen and (max-width: 1230px) {
+
+    .discografia{display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;}
 }
