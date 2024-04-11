@@ -96,4 +96,6 @@ video{ width: 100%;
 
    nav{display: grid;
     grid-template-columns: repeat(2, auto);}
+
+    .coldplay{font-size: 400%;}
 }
